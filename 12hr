@@ -45,7 +45,7 @@ clockPlugin.prototype.start = function () {
 		self.clock.html(current_time);
 	};
 
-	this.ticktock();
+	this.ticktock12();
 	this.interval = setInterval(this.ticktock, 1000);
 };
 
